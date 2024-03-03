@@ -1,53 +1,62 @@
+<!-- Gavin Smith
+gsmith19 -->
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Poison Ice</title>
+    <!-- link to the bootstrap -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous"></script>
+    <!-- font awesome -->
     <script src="https://kit.fontawesome.com/0bd961eb30.js" crossorigin="anonymous"></script>
+   <!-- google fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
-    
+    <!-- link to the favio -->
     <link rel="icon" href="./images/favio.svg" type="image/x-icon">
     <link rel="stylesheet" href="./styles.css">
 </head>
 <body>
     <!-- this is the navbar -->
-    <nav class="navbar navbar-expand-lg bg-body-tertiary nav-1">
-        <div class="container-fluid nav-1">
-          <a class="navbar-brand" href="#"><i class="fa-brands fa-pagelines"></i> POISON ICE </a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarNavDropdown">
-            <ul class="navbar-nav">
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page"  href="#">Home</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Features</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Pricing</a>
-              </li>
-              <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                  Dropdown link
-                </a>
-                <ul class="dropdown-menu">
-                  <li><a class="dropdown-item" href="#">Action</a></li>
-                  <li><a class="dropdown-item" href="#">Another action</a></li>
-                  <li><a class="dropdown-item" href="#">Something else here</a></li>
-                </ul>
-              </li>
-            </ul>
+    <header>
+      <nav class="navbar navbar-expand-lg bg-body-tertiary nav-1">
+          <div class="container-fluid nav-1">
+            <a class="navbar-brand" href="#"><i class="fa-brands fa-pagelines"></i> POISON ICE </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+              <ul class="navbar-nav">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page"  href="#">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Features</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Pricing</a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Explore
+                  </a>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#">Action</a></li>
+                    <li><a class="dropdown-item" href="#">Another action</a></li>
+                    <li><a class="dropdown-item" href="#">Something else here</a></li>
+                  </ul>
+                </li>
+              </ul>
+            </div>
           </div>
-        </div>
-      </nav>
+        </nav>
+    </header>
+    
     <br>
        
     <section>
@@ -81,105 +90,165 @@
             <hr>
         </div>
     </section>
+
    <br><br><br><br><br>
+
 <!-- this is the hovering cards -->
-   <div class="row row-cols-1 row-cols-md-3 g-4 green-background  ">
-    <div class="col-4">
-      <div class="card h-80 border border">
-        <img src="https://mmmoving.com/wp-content/uploads/2014/06/muscleache-01.jpg" class="card-img-top" alt="achy back">
-        <div class="card-body">
-          <h5 class="card-titl e "> <i class="fa-solid fa-house"></i>  Achy Muscles</h5>
-          <p class="card-text " >Sore muscles ache, signaling the aftermath of exertion, a reminder of hard work and physical effort.</p>
-        </div>
-        
-      </div>
-    </div>
-    <div class="col-4">
-      <div class="card h-80">
-        <img src="https://sa1s3optim.patientpop.com/assets/images/provider/photos/2407001.jpeg" class="card-img-top" alt="foot">
-        <div class="card-body">
-          <h5 class="card-title " > <i class="fa-solid fa-heart"></i>  Neuropothy</h5>
-          <p class="card-text " >Neuropathy brings tingling, numbness, and pain.</p>
-        </div>
-        
-      </div>
-    </div>
-    <div class="col-4">
-      <div class="card h-80">
-        <img src="https://www.piedmont.org/media/BlogImages/pulled-muscle.jpg" class="card-img-top" alt="pulled muscle">
-        <div class="card-body">
-          <h5 class="card-title " > <i class="fa-solid fa-person"></i>  Pulled Muscles</h5>
-          <p class="card-text " >
-            Pulled muscles throb with discomfort, restricting movement and prompting cautious recovery for improved strength.</p>
-        </div>
-        
-      </div>
-    </div>
-  </div>
-    <br><br><br><br>
-    <!-- This is the text area -->
- <div class="container-4">
-    <div class="col-12 run text-center">
-        <h1>"Poison Ice is a soothing touch to reawaken your muscles and reclaim your run!"</h1>
-        <br><br><br>
-    </div>
-     <!-- This is the carousel -->
-     <section>
-         <div class="slider-wrapper">
-             <div class="slider">
-               <img id="slide-1" src="https://media.gq-magazine.co.uk/photos/64e33a986413ab6405a9c700/16:9/w_2560%2Cc_limit/Running-Slow.jpg" alt=" man running">
-               <img id="slide-2" src="https://cdn-prod.medicalnewstoday.com/content/images/articles/327/327138/a-man-holding-his-leg-because-he-has-muscle-soreness.jpg" alt=" guy holding knee">
-               <img id="slide-3" src="https://hips.hearstapps.com/hmg-prod/images/handsome-young-man-feeling-the-pain-in-shoulder-at-royalty-free-image-1648044119.jpg" alt="guy holding a-man-holding-his-leg-because-he-has-muscle-soreness">
-             </div>
-             <div class="slider-nav">
-               <a href="#slide-1"></a>
-               <a href="#slide-2"></a>
-               <a href="#slide-3"></a>
-             </div>
-         </div>
-     </section>  
+<section>
+  <div class="row row-cols-1 row-cols-md-3 g-4 green-background  ">
+   <div class="col-4">
+     <div class="card h-80 border border">
+       <img src="https://mmmoving.com/wp-content/uploads/2014/06/muscleache-01.jpg" class="card-img-top" alt="achy back">
+       <div class="card-body">
+         <h5 class="card-titl e "> <i class="fa-solid fa-house"></i>  Achy Muscles</h5>
+         <p class="card-text " >Sore muscles ache, signaling the aftermath of exertion, a reminder of hard work and physical effort.</p>
+       </div>
+       
+     </div>
+   </div>
+   <div class="col-4">
+     <div class="card h-80">
+       <img src="https://sa1s3optim.patientpop.com/assets/images/provider/photos/2407001.jpeg" class="card-img-top" alt="foot">
+       <div class="card-body">
+         <h5 class="card-title " > <i class="fa-solid fa-heart"></i>  Neuropothy</h5>
+         <p class="card-text " >Neuropathy brings tingling, numbness, and pain.</p>
+       </div>
+       
+     </div>
+   </div>
+   <div class="col-4">
+     <div class="card h-80">
+       <img src="https://www.piedmont.org/media/BlogImages/pulled-muscle.jpg" class="card-img-top" alt="pulled muscle">
+       <div class="card-body">
+         <h5 class="card-title " > <i class="fa-solid fa-person"></i>  Pulled Muscles</h5>
+         <p class="card-text " >
+           Pulled muscles throb with discomfort, restricting movement and prompting cautious recovery for improved strength.</p>
+       </div>
+     </div>
+   </div>
  </div>
+</section>
+
+    <br><br><br><br>
+
+    <!-- This is the text area -->
+  <section>
+    <div class="container-4">
+       <div class="col-12 run text-center">
+           <h1>"Poison Ice is a soothing touch to reawaken your muscles and reclaim your run!"</h1>
+           <br><br><br>
+       </div>
+        <!-- This is the carousel -->
+        <section>
+            <div class="slider-wrapper">
+                <div class="slider">
+                  <img id="slide-1" src="https://media.gq-magazine.co.uk/photos/64e33a986413ab6405a9c700/16:9/w_2560%2Cc_limit/Running-Slow.jpg" alt=" man running">
+                  <img id="slide-2" src="https://cdn-prod.medicalnewstoday.com/content/images/articles/327/327138/a-man-holding-his-leg-because-he-has-muscle-soreness.jpg" alt=" guy holding knee">
+                  <img id="slide-3" src="https://hips.hearstapps.com/hmg-prod/images/handsome-young-man-feeling-the-pain-in-shoulder-at-royalty-free-image-1648044119.jpg" alt="guy holding a-man-holding-his-leg-because-he-has-muscle-soreness">
+                </div>
+                <div class="slider-nav">
+                  <a href="#slide-1"></a>
+                  <a href="#slide-2"></a>
+                  <a href="#slide-3"></a>
+                </div>
+            </div>
+        </section>  
+    </div>
+  </section>
 
  <br><br><br><br>
- <!-- input form -->
- <form class="green-background">
-  <p>Sign up now for exclusive emails!</p>
-  <div class="row d-flex justify-content-center ">
-    <div class="col-3">
-      <label for="inputEmail4">Email</label>
-      <input type="email" class="form-control" id="inputEmail4" placeholder="Email">
+
+  <!-- input form -->
+ <section>
+   <form class="green-background">
+    <p>Sign up now for exclusive emails!</p>
+    <div class="row d-flex justify-content-center ">
+      <div class="col-3">
+        <label for="inputEmail4">Email</label>
+        <input type="email" class="form-control" id="inputEmail4" placeholder="Email">
+      </div>
+      <div class=" col-3">
+        <label for="inputPassword4">Password</label>
+        <input type="password" class="form-control" id="inputPassword4" placeholder="Password">
+      </div>
     </div>
-    <div class=" col-3">
-      <label for="inputPassword4">Password</label>
-      <input type="password" class="form-control" id="inputPassword4" placeholder="Password">
+    <div class="row d-flex justify-content-center">
+      <div class="col-6  ">
+        <label for="inputAddress">Address</label>
+        <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St">
+      </div>
     </div>
-  </div>
-  <div class="row d-flex justify-content-center">
-    <div class="col-6  ">
-      <label for="inputAddress">Address</label>
-      <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St">
-    </div>
-  </div>
-  <div class="row d-flex justify-content-center">
-    <div class="form-group col-2">
-      <label for="inputCity">City</label>
-      <input type="text" class="form-control" id="inputCity" placeholder="city">
-    </div>
-    <div class="form-group col-md-4">
-      <label for="inputState">State</label>
-      <select id="inputState" class="form-control">
-        <option selected>Choose...</option>
-        <option>...</option>
+    <div class="row d-flex justify-content-center">
+      <div class="form-group col-2">
+        <label for="inputCity">City</label>
+        <input type="text" class="form-control" id="inputCity" placeholder="City">
+      </div>
+      <div class="form-group col-md-4">
+        <label for="inputState">State</label>
+        <select id="inputState" class="form-control">
+          <option selected>Choose...</option>
+          <option value="Alabama">Alabama</option>
+          <option value="Alaska">Alaska</option>
+          <option value="Arizona">Arizona</option>
+          <option value="Arkansas">Arkansas</option>
+          <option value="California">California</option>
+          <option value="Colorado">Colorado</option>
+          <option value="Connecticut">Connecticut</option>
+          <option value="Delaware">Delaware</option>
+          <option value="Florida">Florida</option>
+          <option value="Georgia">Georgia</option>
+          <option value="Hawaii">Hawaii</option>
+          <option value="Idaho">Idaho</option>
+          <option value="Illinois">Illinois</option>
+          <option value="Indiana">Indiana</option>
+          <option value="Iowa">Iowa</option>
+          <option value="Kansas">Kansas</option>
+          <option value="Kentucky">Kentucky</option>
+          <option value="Louisiana">Louisiana</option>
+          <option value="Maine">Maine</option>
+          <option value="Maryland">Maryland</option>
+          <option value="Massachusetts">Massachusetts</option>
+          <option value="Michigan">Michigan</option>
+          <option value="Minnesota">Minnesota</option>
+          <option value="Mississippi">Mississippi</option>
+          <option value="Missouri">Missouri</option>
+          <option value="Montana">Montana</option>
+          <option value="Nebraska">Nebraska</option>
+          <option value="Nevada">Nevada</option>
+          <option value="New Hampshire">New Hampshire</option>
+          <option value="New Jersey">New Jersey</option>
+          <option value="New Mexico">New Mexico</option>
+          <option value="New York">New York</option>
+          <option value="North Carolina">North Carolina</option>
+          <option value="North Dakota">North Dakota</option>
+          <option value="Ohio">Ohio</option>
+          <option value="Oklahoma">Oklahoma</option>
+          <option value="Oregon">Oregon</option>
+          <option value="Pennsylvania">Pennsylvania</option>
+          <option value="Rhode Island">Rhode Island</option>
+          <option value="South Carolina">South Carolina</option>
+          <option value="South Dakota">South Dakota</option>
+          <option value="Tennessee">Tennessee</option>
+          <option value="Texas">Texas</option>
+          <option value="Utah">Utah</option>
+          <option value="Vermont">Vermont</option>
+          <option value="Virginia">Virginia</option>
+          <option value="Washington">Washington</option>
+          <option value="West Virginia">West Virginia</option>
+          <option value="Wisconsin">Wisconsin</option>
+          <option value="Wyoming">Wyoming</option>
       </select>
+      
+      </div>
+      <div class="form-group col-md-2">
+        <label for="inputZip">Zip</label>
+        <input type="text" class="form-control" id="inputZip"  placeholder="Zip">
+      </div>
     </div>
-    <div class="form-group col-md-2">
-      <label for="inputZip">Zip</label>
-      <input type="text" class="form-control" id="inputZip"  placeholder="zip">
-    </div>
-  </div>
-  
-  <button type="submit" class="btn button-2 d-flex justify-content-center ">Sign in</button>
-</form>
+    
+    <button type="submit" class="btn button-2 d-flex justify-content-center ">Sign in</button>
+  </form>
+ </section>
    
 <br><br>
 <!-- footer -->
