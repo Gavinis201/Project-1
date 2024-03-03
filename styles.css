@@ -1,3 +1,78 @@
+
+:root{
+    --primary: #201f1b ;
+    --secondary:#3d8e39 ;
+   --fourth: white;
+   
+}
+
+body{
+  background-color: var(--primary);
+  height: 300vh;
+}
+
+.container-1{
+  position: inherit;
+  border-top: 20px;
+  height: 80vh;
+  width: 100%;
+  background-color: var(--primary);
+  top: 7%;
+  box-sizing: border-box;
+}
+
+.nav-1{
+background-color: #3d8e39!important;
+border-style: solid;
+border-color:var(--secondary);
+
+}
+.poison{
+  position: absolute;
+  aspect-ratio: 16/9;
+  right: 0;
+  padding: 60px;
+  /* border-radius: 5px; */
+}
+
+.container-2{
+  height: 260px;
+  width: 40%; 
+  /* background-color: rgb(119, 35, 35); */
+  padding: 50px;
+  left: 70px;
+  color: white;
+  
+}
+
+.button-1{
+  position: absolute;
+  height: 40px;
+  width: 125px;
+  background-color: white;
+  left: 40vh;
+  top: 64%;
+  font-weight: bold;
+}
+
+.button-1:hover{
+  color: var(--primary);
+  background-color: var(--secondary);
+  box-shadow: 1 1 5px;
+  
+}
+
+footer{
+  height: 30px
+}
+
+.image-2{
+  position: absolute;
+  left: 70px;
+}
+
+/* carousel css */
+
 .hw6-container {
     padding: 2rem;
   }
