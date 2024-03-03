@@ -46,10 +46,11 @@ color: white !important;
   font-size: larger;
   bottom: 17px;
   
-  
-
 }
 
+card:hover{
+  background-color: var(--secondary)!important
+}
 .green-border{
   border-style: solid;
   border-color: var(--secondary);
