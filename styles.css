@@ -8,7 +8,7 @@
 
 body{
   background-color: var(--primary);
-  height: 300vh;
+  height: 250vh;
   box-sizing: border-box;
   font-family: 'lato', sans-serif;
 
@@ -96,7 +96,7 @@ form{
 }
 
 footer{
-  height: 200px;
+  height: 100px;
   color:white;
   bottom: 0;
 }
